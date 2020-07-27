@@ -41,4 +41,3 @@ anim <- i +
 animate(anim, 250, fps = 10,  width = 1200, height = 1000, 
         renderer = ffmpeg_renderer()) -> for_mp4
 anim_save("animation.mp4", animation = for_mp4 )
-
