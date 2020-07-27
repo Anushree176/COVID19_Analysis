@@ -22,7 +22,7 @@ In this task, we will be focusing on the state-wise analysis of
 1. Number and types of ICMR labs present
 2. Number and type of Health Facilities available
 3. Number of Confirmed, Cured, Active cases and Deaths occurred
-4. Population - Rural vs Urban
+4. Population - Rural vs Urban  <br>
 The model used for the analysis of the factors responsible will be :
 * Linear regression
 
