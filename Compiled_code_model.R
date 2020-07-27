@@ -157,10 +157,14 @@ d4 <- plot_ly(all_data, x = ~rural, y = ~Deaths, type = "scatter", name = "Rural
 d5 <- plot_ly(all_data, x = ~urban, y = ~Deaths, type = "scatter", name = "Urban Pop")
 d <- subplot(d1,d2,d3,d4,d5)
 d
-
+#############################################################################
+correl <- round(cor(all_data),2)
+correl
+source("http://www.sthda.com/upload/rquery_cormat.r")
+rquery.cormat(all_data)
 #########################################################################################################
 
-model_c <- lm(all_data$Confirmed ~ all_data$No_of_centers)
+model_c <- lm(all_data$Confirmed ~ all_data$No_of_centers+all_data$urban)
 summary(model_c)
 
 
