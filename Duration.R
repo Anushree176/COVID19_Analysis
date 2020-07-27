@@ -10,5 +10,6 @@ indi = indi[!indi$duration < 6,]
 indi <- indi[complete.cases(indi), ]
 rownames(indi) <- c(1:149)
 mean(indi$duration)
-plot_ly(indi, y = ~duration, type = "scatter")
-
+duration <- plot_ly(indi, y = ~duration, type = "scatter")
+duration <- duration %>% add_segments(x = 0, y = mean(indi$duration), xend = 150, yend = mean(indi$duration))
+duration
