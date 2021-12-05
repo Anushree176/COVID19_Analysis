@@ -26,7 +26,7 @@ In this task, we will be focusing on the state-wise analysis of
 The model used for the analysis of the factors responsible will be :
 * Linear regression
 
-<a href="https://drive.google.com/uc?export=view&id=1JrwAj2QFlfXTS_by7Mq77MLd-9lg7G5l"><img src="https://drive.google.com/uc?export=view&id=1JrwAj2QFlfXTS_by7Mq77MLd-9lg7G5l" style="width: 100px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1vsMHIzyaEevccJZ0BYVd4LiUSS9wvvOY"><img src="https://drive.google.com/uc?export=view&id=1vsMHIzyaEevccJZ0BYVd4LiUSS9wvvOY" style="width: 100px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 <a href="https://drive.google.com/uc?export=view&id=1jc7P_vI2I2tFbBx4H1mSxHa2bxKzaG-w"><img src="https://drive.google.com/uc?export=view&id=1jc7P_vI2I2tFbBx4H1mSxHa2bxKzaG-w" style="width: 300px; max-width: 50%; height: auto" title="Click for the larger version." /></a>
 
 <h3>Task 2</h3>
